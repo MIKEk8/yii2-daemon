@@ -6,7 +6,8 @@
 
 Author: Inpassor <inpassor@yandex.com>
 
-GitHub repository: https://github.com/Inpassor/yii2-daemon
+Origin GitHub repository: https://github.com/Inpassor/yii2-daemon
+Fork repository: https://github.com/MIKEk8/yii2-daemon
 
 This daemon is a console application of Yii2, implementing multitasking
 processes on PHP.

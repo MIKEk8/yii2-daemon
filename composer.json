@@ -1,6 +1,6 @@
 {
-    "name": "inpassor/yii2-daemon",
-    "description": "The simple daemon extension for the Yii 2 framework",
+    "name": "MIKEk8/yii2-daemon",
+    "description": "The simple daemon extension for the Yii 2 framework. Forked from Inpassor/yii2-daemon",
     "keywords": [
         "yii2",
         "daemon"
@@ -9,16 +9,28 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "MIKEk8",
+            "email": "mik-ek8944@yandex.com",
+            "role": "Author of this project"
+        },
+        {
             "name": "Inpassor",
-            "email": "inpassor@yandex.com"
+            "email": "inpassor@yandex.com",
+            "role": "The author of the original project inpassor/yii2-daemon"
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "~2.0.13",
+        "ext-posix": "*",
+        "ext-pcntl": "*",
+        "ext-json": "*"
     },
     "autoload": {
         "psr-4": {
-            "inpassor\\daemon\\": ""
+            "mikek8\\daemon\\": ""
         }
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
     }
 }

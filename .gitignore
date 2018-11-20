@@ -6,3 +6,5 @@ nbproject
 .settings
 Thumbs.db
 .DS_Store
+composer.lock
+vendor/
